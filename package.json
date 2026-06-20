@@ -1,0 +1,22 @@
+{
+  "name": "template-server",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "docx-template": "^2.2.5",
+    "docx4js": "^3.3.0",
+    "docxtemplater": "^3.69.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "file-saver": "^2.0.5",
+    "pizzip": "^3.2.0"
+  }
+}

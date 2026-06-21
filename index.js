@@ -10,16 +10,24 @@ config();
 // const __dirname = dirname(__filename);
 
 const app = express();
+const cors = require("cors");
 const PORT = process.env.PORT || 3000;
 app.locals.XAPIKEY = process.env.XAPIKEY || "";
 if (app.locals.XAPIKEY.length == 0) {
     throw new Error("XAPIKEY env is not set");
 }
+const origins = (process.env.AllowedOrigins || "").split(",");
 
+console.log("origins", origins);
 const public_dir = join(__dirname, "public");
-// Serve static files from "public"
+const _cors = cors({
+  origin: origins,
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: "*"
+});
+app.use(_cors);
 app.use(express.json())
-app.use("/content/", express.static(public_dir));
+app.use("/public/", express.static(public_dir));
 
 /**
 * @param {express.Request} req

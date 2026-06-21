@@ -1,0 +1,34 @@
+Our Reference No.: TCS/2025/{{referenceNumber}}
+Your Claim No.: {{claimNumber}}
+Date: {{date}}
+
+{{insurer}}
+{{clientAddress}}
+
+Attention: MS./MR. {{attentionPerson}}
+{{attentionTitle}}
+
+Subject: ADVANCE REPORT
+
+Claim for loss/damages due to : {{lossType}}
+Date of Loss                  : {{dateOfLoss}}
+Insured                       : {{insuredName}}
+Location of Risk              : {{locationOfRisk}}
+Policy No.                    : {{policyNumber}}
+
+Gentlemen/Ms./Mr. {{attentionPerson}}:
+
+We acknowledge with thanks the kind instruction of your {{claimsManager}} for us to handle the investigation and adjustment of the subject typhoon-related loss/claim.
+
+In coordination with {{contactPerson}}, the Insured, we confirm that we attended the Insured’s premises, located at {{locationOfRisk}}, on {{siteAttendanceDate}} for conducting an initial inspection and undertaking preliminary inquiries.
+
+INSURED
+In accordance with the assignment received on {{assignmentDate}}, we acknowledge receipt of the claim filed. The claim pertains to the insured, {{insuredName}} (“Insured”), who holds a policy with {{insurer}} (“Insurer”), covering the property located at {{locationOfRisk}}. The reported loss occurred on {{dateOfLoss}}, coinciding with the passage of a typhoon. Preliminary information indicates that the loss resulted from wind and rain-related damage consistent with typhoon-related perils. Verification of the event through official meteorological data and local weather reports is underway to confirm the timing and nature of the storm event.
+
+CIRCUMSTANCES/DISCOVERY OF LOSS
+The Insured properties sustained damage due to flood/typhoon. At the time of the loss, Typhoon {{typhoonName}} affected the area with wind velocities reaching approximately {{windSpeed}}, classified under {{windSignal}} at the location of risk.
+
+In conjunction with the typhoon, heavy rainfall contributed to significant surface flooding. Floodwaters reportedly rose to a height of {{floodLevel}} within the insured premises, resulting in water ingress into ground-floor areas, damage to contents, equipment, and possible structural saturation.
+
+LOSS RESERVE
+Based on the initial data and observations available to date, we have provisionally estimated the cost of damages in the amount of PHP {{lossReserveAmount}}, which the Insurers may consider setting aside as a precautionary loss reserve for this claim.

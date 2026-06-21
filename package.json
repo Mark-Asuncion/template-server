@@ -11,9 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "docxtemplater": "^3.69.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "pizzip": "^3.2.0"
+    "pdfkit": "^0.19.1"
   }
 }
